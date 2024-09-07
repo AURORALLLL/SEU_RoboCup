@@ -25,37 +25,37 @@ fast-rcnn
 
 
 ## 软件架构
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/start.sh:** 程序入口
+**Robocup2022/start.sh:** 程序入口
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/move.py:** 从指定路径载入实景图片至gazebo
+**Robocup2022/move.py:** 从指定路径载入实景图片至gazebo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/1.py:** 启动ROS launch:开启gazebo环境，载入机器人；启动机器人导航程序
+**Robocup2022/1.py:** 启动ROS launch:开启gazebo环境，载入机器人；启动机器人导航程序
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/light.py:** 对拍摄到的图片进行亮度修正
+**Robocup2022/light.py:** 对拍摄到的图片进行亮度修正
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/version4.py:** 使用百度人脸识别API进行人脸识别
+**Robocup2022/version4.py:** 使用百度人脸识别API进行人脸识别
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**faster-rcnn-pytorch-master/predict.py:(开源未给出)** 使用faster-rcnn实现物体识别 
+**faster-rcnn-pytorch-master/predict.py:(开源未给出)** 使用faster-rcnn实现物体识别 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**home/launch/step1.launch:** 开启gazebo环境，载入机器人
+**home/launch/step1.launch:** 开启gazebo环境，载入机器人
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**home/launch/step2.launch:** 启动机器人导航程序
+**home/launch/step2.launch:** 启动机器人导航程序
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**home/src/test.py:** 机器人导航
+**home/src/test.py:** 机器人导航
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**home/models:** gazebo模型
+**home/models:** gazebo模型
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**home/worlds:** gazebo世界
+**home/worlds:** gazebo世界
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/Picture/Img:** 图片指定载入路径
+**Robocup2022/Picture/Img:** 图片指定载入路径
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/Picture/shot:** 机器人拍摄图像保存路径
+**Robocup2022/Picture/shot:** 机器人拍摄图像保存路径
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/Picture/temp:** 调整亮度后图像保存路径
+**Robocup2022/Picture/temp:** 调整亮度后图像保存路径
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/Picture/Facelib:** 人脸库载入路径
+**Robocup2022/Picture/Facelib:** 人脸库载入路径
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Robocup2022/Picture/face:** 人脸识别后图像保存路径
+**Robocup2022/Picture/face:** 人脸识别后图像保存路径
 
 
 ## 实现流程
