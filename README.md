@@ -65,6 +65,7 @@ fast-rcnn
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开启gazebo环境，载入机器人
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开启机器人导航程序
+<br/>
 - 对拍摄到的图片进行亮度修正
 - 使用百度人脸识别API进行人脸识别
 - 使用faster-rcnn进行物体识别
